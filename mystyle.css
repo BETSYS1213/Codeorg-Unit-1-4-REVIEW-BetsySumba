@@ -1,0 +1,140 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4 {
+  font-size: 0.6em;
+}
+body{
+  background-color: #d1c2c2;
+  color: #a9709d;
+  text-align: center;
+  vertical-align: super;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#logo{
+  width: 75px;
+  z-index: 1;
+  position: absolute;
+  top: 19px;
+  right:250%
+}
+banner{
+  background-color:rgba(159, 166, 104, 0.2) ;
+  margin: 15px;
+  padding: 10px;
+  height: 150px;
+  border: 3px solid #8b3768;
+  box-shadow:5px 2px 5px 5px #d6aeae;
+  outline-offset:  1px;
+  outline:groove;2px #8b3768;
+  text-tranform: capitalize;
+  text-shadow:1px 1px #8b3768;
+  font-family:fanstasy;
+font-style:oblique;
+text-align:right;
+}
+.menu{
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  position: apsolute;
+  left: 20px;
+  top: 20px;
+  font-size: 2em;
+  text-align: left;
+  z-index: 1;
+}
+.menu a{
+background-color: #ce92b5;
+color: Whitesmoke;
+padding: 2px;
+font-size: 0.5em;
+display: none;
+}
+.menu:hover a{
+  display: block;
+}
+.menu a:hover{
+  color: #ffffff;
+  background-color: #8b578e;
+}
+.container{
+  border: 2px solid #a967c1;
+  background-image: repeating-linear-gradient(pink,#fbc1f6,#edbdff);
+  height:990px;
+  overflow: hidden;
+}
+.wave{
+  border: 1px dotted pink;
+  background-image: reating-gradient(rgba(255,155,100,0.5),rgba(200,100, 50, 0.5), yellow,pink);        
+  height: 20px;  
+  width: 80%;
+  position: absolute;
+  left :10%;
+  transform: height 4s;
+  display: block;
+  overflow: hidden;
+}
+#u1{
+  transition: height 4s; 
+}
+#u1:hover{
+  height: 450px;
+  z-index: 1;
+}
+#u2{
+ transform: height 4s; 
+}
+#u2:hover{
+  height: 450px;
+  z-index: 1;
+}
+#u3{
+ transform: height 4s; 
+}
+#u3:hover{
+  height: 450px;
+  z-index: 1;
+}
+#u4{
+ transform: height 4s; 
+}
+#u4:hover{
+  height: 450px;
+  z-index: 1;
+}
+#left{
+position:absolute;
+left: 1px;
+margin: 2px;
+border: 1px solid black;
+width: 49.5%;
+height: 550px;
+}
+#right{
+position:absolute;
+right:1px;
+margin: 2px;
+border: 1px solid #835d5d;
+width: 49.5%;
+height: 550px;
+}
+#top{
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 1px;
+  border: 1px solid #c26ec4;
+  padding: 2px;
+  margin: 99%;
+}
+#prj{
+border: 1px solid pink;
+}
+#dn{
+  border: 1px solid pink;
+}
